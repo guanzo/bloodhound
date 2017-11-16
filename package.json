@@ -8,7 +8,7 @@
     "start": "webpack-dev-server -c --port=7788",
     "test": "tape tests/*.js"
   },
-  "author": "Wang Zuo",
+  "author": "Eric Guan",
   "license": "MIT",
   "dependencies": {
     "es6-promise": "^3.0.2",
@@ -17,8 +17,10 @@
     "superagent": "^1.2.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "tape": "^4.2.2",
-    "webpack": "^1.12.9",
+    "webpack": "^3.8.1",
     "webpack-dev-server": "^1.14.0"
   },
   "keywords": [
